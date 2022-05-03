@@ -1,0 +1,23 @@
+body {
+    background-color: #f1580c
+}
+
+.bi-arrow-left-circle-fill {
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div {
+    border-top: 10px white;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+}
