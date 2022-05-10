@@ -36,14 +36,14 @@ h1 {
     font-size: 30px
 }
 #corpo{
-    margin-top: 130px ;
+   
     background-color:#f1580c ;
     border-radius: 15px;
     text-align: center;
     justify-content: center;
     width: 720px;
     height: 1280px;
-    margin-left: 40%;
+    
     border: 3px solid white;
  }
 
