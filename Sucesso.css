@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;    
+    padding: 0;
+    /* O "" seleciona todos elementos do CSS.*/
+    /* O margin define a área de margem nos quatro lados do elemento. */
+    /* O padding define uma a distância entre o conteúdo de um elemento e suas bordas. */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #f1580c 0%, orange 35%, #f1580c 100%);
+    /* Width define a largura do elemento selecionado. */
+    /* O height define a altura do elemento. */
+    /* O font-family é uma lista de prioridades de familias de fontes, coloca-se mais de uma fonte como "prevenção", pois não é garantido que esteja instalado no computador do usuário. */
+    /* Background serve para modificar multiplas propriedades do fundo de seu elemento como: cor, tamanho, posição etc.*/
+}
+
+#form h2 {
+    text-align: center;
+    /* Text-align serve para alinhar o texto no centro, inicio, fim, direita ou esquerda. */
+}
+
+#form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    width: min-content;
+    border-radius: 20px;
+    align-items: center;
+    color: #f1580c;
+    box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
+    width: 200px;
+    /* Position determina o posicionamento do elemento selecionado na página. */
+    /* Top (em cima) e left (embaixo) são propriedades auxiliares do position que definem como o elemento ficará posicionado. */
+    /* Transform pode mover um elemento e a função translate posiciona o elemento na direção horizontal e vertical.*/
+    /* Border-radius define o quão redondo as extremidades do elemento serão */
+    /* Align-items alinha os itens ao longo do eixo cruzado da linha */
+    /* Color define a cor do conteudo, sem afetar em seu background.*/
+    /* Box-shadow adiciona sombra na "caixa" onde o elemento está. */
+}
+
+.title {
+    font-size: 28.8px;
+    margin-bottom: 10%;
+    /* Font-size determina o tamanho da fonte. */
+}
+
+.input {
+    min-width: 280px;
+    border-radius: 15px;
+    border: 2px #f1580c solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+    /* Border serve para configurar multiplas propriedades do elemento selecionado. */
+}
+
+.input i {
+    font-size: 19.2px;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #f1580c 0%, orange 35%, #f1580c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transform: translateY(-10%);
+    font-size: 14px;
+    color: #f1580c;
+    /* Outline é uma camada ao redor do elemento depois da borda, esse atributo define seu tamanho, cor etc.*/
+}
+
+#botao {
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#botao button {
+    background: linear-gradient(-45deg, #f1580c 0%, orange 35%, #f1580c 100%);
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    /* Cursor define como a "seta" do mouse irá se comportar ao passar por cima do elemento selecionado. */
+}
+
+#link a{
+  color: #f1580c;
+  text-align: center;
+}
+
+#imagem {
+}
