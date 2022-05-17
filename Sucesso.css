@@ -104,6 +104,10 @@ body {
   color: #f1580c;
   text-align: center;
 }
-
-#imagem {
+svg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    height: 45px;
 }

@@ -10,16 +10,20 @@ body{
   }
   h4{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     text-align: Center;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+    
   }
   
   .tp {
     background-color: #dd6124;
-    margin-left: 15%;
-    margin-right: 15%;
     font-size:20% ;
+    border-radius: 15px;
+    width: 322px;
+    margin-left: 20px;
+  
 
   }
   .icons{
@@ -32,5 +36,11 @@ body{
     justify-content: space-around;
     }
     
+    .pt{
+      background-color: #dd6124;
+      margin-left: 15px;
+      height: max-content;
+      border-radius: 15px;
+    }
   
   
