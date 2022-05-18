@@ -19,6 +19,7 @@ body{
   
   .tp {
     background-color: #dd6124;
+    border-radius: 15px;
     width: 80%;
     
     margin-left: 20px;
@@ -39,7 +40,6 @@ body{
     
     .pt{
       background-color: #dd6124;
-      margin-left: 15px;
       height: max-content;
       border-radius: 15px;
     text-align: center;
