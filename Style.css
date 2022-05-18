@@ -19,15 +19,14 @@ body{
   
   .tp {
     background-color: #dd6124;
-    font-size:20% ;
+    font-size:8px ;
     border-radius: 15px;
     width: 322px;
     margin-left: 20px;
+    
   }
   
-  .tp h4 {
-    font-size:8px;
-  }
+
   
   .icons{
     color: white;
