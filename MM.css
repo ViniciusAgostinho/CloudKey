@@ -35,7 +35,7 @@ body {
     border-radius: 20px;
     align-items: center;
     color: #f1580c;
-    box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
+    box-shadow: rgb(255, 150, 52) 1.95px 1.95px 2.6px;
     /* Position determina o posicionamento do elemento selecionado na página. */
     /* Top (em cima) e left (embaixo) são propriedades auxiliares do position que definem como o elemento ficará posicionado. */
     /* Transform pode mover um elemento e a função translate posiciona o elemento na direção horizontal e vertical.*/
@@ -105,4 +105,11 @@ body {
 }
 
 #imagem {
+  
+}
+    animation: is-rotating 1s infinite;
+    animation: is-rotating 1s infinite;
+    animation: is-rotating 1s infinite;
+    animation: is-rotating 1s infinite;
+    border-radius: 50%;
 }
