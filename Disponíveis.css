@@ -1,0 +1,88 @@
+body {
+
+ width: 100vw;
+
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+}
+
+.bi-arrow-left-circle-fill {
+    color: white;
+    font-size: 40px;
+    margin-right: 80%;
+    margin-top: 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+}
+#elementos{
+  color:white;
+ font-size: 8vh;
+
+}
+#disp{
+  color:white;
+}
+#nome{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+#icones {
+    border-top: 10px white;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+}
+#icones i {
+    color: aliceblue;
+    font-size: 30px
+}
+#corpo{
+   
+    background-color:#f1580c ;
+   
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 848px;
+    
+    
+    
+ }
+ 
+ #container {
+     background-color: #dd6124;
+     width: 400px;
+
+     height:600px;
+
+     text-align: center;
+     border-radius: 15px;
+     display: flex;
+ }
+
+ #elementos{
+     margin-right: 300px;
+     margin-left: 70px;
+     margin-top: 0px;
+ }
+ 
+ #disp {
+   font-size: 50px;
+   margin-right: 20px;
+
+ }
+
+ #linha{
+     width: 100vwpx;
+     border: 3px solid white;
+ }
