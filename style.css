@@ -1,8 +1,8 @@
-
 body{
-    background-color: #f1580c;
-    width: 90vw;
-    height: 100vh;
+    background: linear-gradient(-45deg, #f1580c 0%, orange 35%, #f1580c 100%);
+    width: 100%;
+    height: 810px;
+    margin: 0;
   }
   h1{
     color: white;
@@ -17,15 +17,116 @@ body{
   
   .tp {
     background-color: #dd6124;
-    margin-left: 15%;
-    margin-right: 15%;
     font-size:20% ;
-
-
+    width: 90%;
+    border-radius: 20px;
+    height: 135px;
+    margin-left: 20px;
   }
+
   .tp i{
     color: white;
     font-size: 12vh;
     margin: 10px;
+    width: 80px;
+    justify-content: center;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+
   }
-  
+
+  .icons{
+    margin:10px;
+  }
+
+  .icones{
+    margin: 10px;
+    justify-content: center;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  .icones img {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 27px;
+    margin-top: -35px;
+  }
+
+  .pt{
+    background-color: #dd6124;
+    font-size: 20%;
+    width: 90%;
+    border-radius: 20px;
+    height: 205px;
+    margin-left: 20px;
+  }
+
+h4{
+    font-size: 35px;
+    margin-top: 8px;
+  }
+
+.St{
+    background-color: #dd6124;
+    font-size: 20%;
+    width: 90%;
+    border-radius: 20px;
+    height: 135px;
+    margin-left: 20px;
+}
+
+.St img {
+  margin-left: 27px;
+  margin-top: -35px;
+}
+
+.pt img {
+  margin-top: -35px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+#linha{
+  width: 100vwpx;
+  border: 3px solid white;
+  }
+  #logo img {
+    width: 170px;
+    height: 120px;
+    padding: 10px;
+}
+#logo {
+  background-color: white;
+  width: max-content;
+  height: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+.bi-arrow-left-circle-fill{
+  color: white;
+  font-size: 40px;
+  margin-right: 80%;
+  margin-top: 40px;
+}
+#linha{
+  border: 3px solid white;
+  height: 60px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+#nome h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+i {
+  margin-left: 18px;
+}

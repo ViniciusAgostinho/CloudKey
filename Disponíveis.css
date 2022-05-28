@@ -1,7 +1,5 @@
 body {
-
  width: 100vw;
-
  height: 100vh;
  margin: 0;
  padding: 0;
@@ -47,42 +45,95 @@ h1 {
     font-size: 30px
 }
 #corpo{
-   
-    background-color:#f1580c ;
-   
+    background: linear-gradient(-45deg, #f1580c 0%, orange 35%, #f1580c 100%);
     text-align: center;
     justify-content: center;
     width: 100vw;
-    height: 848px;
-    
-    
-    
+    height: 848px; 
  }
  
  #container {
      background-color: #dd6124;
-     width: 400px;
-
-     height:600px;
-
-     text-align: center;
+     width: 330px;
+     height: 400px;
      border-radius: 15px;
      display: flex;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
  }
 
- #elementos{
-     margin-right: 300px;
-     margin-left: 70px;
-     margin-top: 0px;
- }
- 
- #disp {
-   font-size: 50px;
-   margin-right: 20px;
-
- }
-
- #linha{
+#linha{
      width: 100vwpx;
      border: 3px solid white;
+     border-left: none;
+     border-right: none;
+ }
+
+ #logo {
+     background-color: white;
+     width: max-content;
+     height: max-content;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 20px;
+ }
+
+ #logo img {
+     width: 170px;
+     height: 120px;
+     padding: 10px;
+ }
+
+ #tv {
+    display: flex;
+    margin-left: 30%;
+ }
+
+ #tv h1 {
+     margin-right: 70px;
+ }
+
+ #tv img {
+     width: 50px;
+     height: 50px;
+     margin-top: 13px;
+ }
+
+ #projetor {
+    display: flex;
+    margin-left: 30%;
+    
+ }
+
+ #projetor h1 {
+     margin-right: 70px;
+ }
+ #lab {
+    display: flex;
+    margin-left: 30%;
+    
+ }
+
+ #lab h1 {
+     margin-right: 70px;
+ }
+ #locais {
+    display: flex;
+    margin-left: 30%;
+ }
+
+ #locais h1 {
+     margin-right: 70px;
+ }
+
+ #som {
+    display: flex;
+    margin-left: 30%;
+ }
+
+ #som h1 {
+     margin-right: 70px;
  }
